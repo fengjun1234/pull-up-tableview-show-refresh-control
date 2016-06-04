@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ITNews.h
 //  6-科技头条
 //
 //  Created by fengjun on 16/6/4.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ITNew.h"
 
-@interface ViewController : UIViewController
-
-
+@interface ITNews : UITableView
+@property (nonatomic, strong) NSArray <ITNew *>* itNewsList;
 @end
-
